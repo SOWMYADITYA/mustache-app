@@ -1,0 +1,19 @@
+canvas{
+    border-color: blueviolet;
+    border-style: dotted;
+    animation-name: EXAMPLE;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes EXAMPLE{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px blue;}
+}
+h3{
+    font-size: medium;
+    font-style: inherit;
+    color:brown;
+}
+.btn-warning:hover{
+    background-color: bisque;
+}
